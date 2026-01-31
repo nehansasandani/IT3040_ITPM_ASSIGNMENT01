@@ -2,8 +2,13 @@
 
 Student ID: IT23228108
 
-## Description
-This project contains Playwright automated test cases to test the Singlish-to-Sinhala translator website (https://www.swifttranslator.com/).
+
+📋 Project Description
+This project contains automated test cases for testing the Swift Translator web application (https://www.swifttranslator.com/) using Playwright framework. The tests validate Singlish to Sinhala translation functionality, including positive scenarios, negative scenarios, and UI behavior.
+
+📊 Test Coverage
+29 Positive Functional Tests - Validating correct translation scenarios
+10 Negative Functional Tests - Testing edge cases and error handling
 
 The project includes:
 - Positive functional test cases
