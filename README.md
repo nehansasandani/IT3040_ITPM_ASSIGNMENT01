@@ -29,8 +29,11 @@ Positive Functional Tests	29
 Negative / Robustness Tests	10
 Total Tests	39
 
+
 ✔️ 29 tests passed successfully
 ❌ 10 negative tests failed (expected failures – explained below)
+
+
 
 📁 Project Structure
 
@@ -49,17 +52,8 @@ tests/
 │
 └── playwright.config.ts
 
-🛠 Technologies Used
 
-Playwright
 
-TypeScript
-
-Node.js
-
-Chromium / Firefox / WebKit
-
-VS Code
 
 ⚙️ How to Install
 
@@ -72,6 +66,9 @@ Run the following commands:
 npx playwright install
 npx playwright test --workers=1
 
+
+
+
 ▶️ How to Run Tests
 
 Run tests exactly like below (as done in this project):
@@ -79,49 +76,20 @@ Run tests exactly like below (as done in this project):
 PS C:\Users\HP\Desktop\IT23228108\tests> npx playwright install
 PS C:\Users\HP\Desktop\IT23228108\tests> npx playwright test --workers=1
 
+📄 View Test Report
+    npx playwright show-report
+
+
+
+
 📈 Test Results
 
 ✅ 29 Positive Functional Tests – PASSED
 
 ❌ 10 Negative Functional Tests – FAILED (Expected)
 
-🔍 Why Negative Tests Failed?
-
-The negative test failures are intentional and valid, demonstrating real-world limitations of the translator:
-
-1️⃣ Timeout Errors (30s exceeded)
-Test timeout of 30000ms exceeded
-browserContext.newPage
-locator.inputValue
-
-
-✔ Happens due to:
-
-Network delays
-
-Slow UI updates
-
-Real-time translation latency
-
-2️⃣ Negative Assertions Working Correctly
-
-Example:
-
-Expected: "හරි හරි ලස්සනයි."
-Received: "hari hari lassanayi."
-
-
-✔ This proves:
-
-Translator did NOT translate as expected
-
-Negative test correctly detected incorrect behavior
-
-👉 This is a TRUE NEGATIVE and validates robustness testing
-
-📄 View Test Report
-
-After running tests, open the report using:
 
 
 
+
+![Uploading Screenshot 2026-02-01 191445.png…]()
