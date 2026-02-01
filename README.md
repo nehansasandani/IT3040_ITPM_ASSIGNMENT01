@@ -5,11 +5,13 @@ Student ID: IT23228108
 
 📌 Project Overview
 
-This project contains automated end-to-end test cases developed using the Playwright Automation Framework to test the Swift Translator web application:
+  This project contains automated end-to-end test cases developed using the Playwright Automation Framework to test the Swift Translator web application:
 
-🔗 https://www.swifttranslator.com/
+  🔗 https://www.swifttranslator.com/
 
-The main goal is to validate Singlish to Sinhala translation behavior, UI response, and robustness against invalid or unexpected inputs.
+   The main goal is to validate Singlish to Sinhala translation behavior, UI response, and robustness against invalid or unexpected inputs.
+
+
 
 🧪 What Is Tested?
 
@@ -17,9 +19,8 @@ The test suite validates:
 
 ✅ Correct Singlish → Sinhala translations
 
-❌ Incorrect or unexpected translations (negative testing)
 
-⚠ Edge cases such as empty input, joined words, long paragraphs
+
 
 🎯 UI behavior and response consistency
 
