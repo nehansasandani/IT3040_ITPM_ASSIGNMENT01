@@ -62,16 +62,18 @@ Open the project folder
 
 Open Terminal inside the folder
 
-Run the following commands:
+ Run the following commands:
 
 
 
 
 
-   npx playwright install
+     npx playwright install
 
    
-   npx playwright test --workers=1
+     npx playwright test --workers=1
+
+
 
 
 
@@ -80,10 +82,13 @@ Run the following commands:
 
 Run tests exactly like below (as done in this project):
 
-PS C:\Users\HP\Desktop\IT23228108\tests> npx playwright install
 
 
-PS C:\Users\HP\Desktop\IT23228108\tests> npx playwright test --workers=1
+
+     PS C:\Users\HP\Desktop\IT23228108\tests> npx playwright install
+
+
+      PS C:\Users\HP\Desktop\IT23228108\tests> npx playwright test --workers=1
 
 
 
